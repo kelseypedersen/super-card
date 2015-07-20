@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "PlayingCardView.h"
+
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet PlayingCardView *playingCardView;
 
 @end
 
@@ -16,7 +19,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.playingCardView.suit = @"❤️";
+    self.playingCardView.rank = 13;
 }
 
 - (void)didReceiveMemoryWarning {

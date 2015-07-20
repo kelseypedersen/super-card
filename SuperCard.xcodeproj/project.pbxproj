@@ -14,6 +14,7 @@
 		A8C927AB1B5D62DF00A0C827 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8C927AA1B5D62DF00A0C827 /* Images.xcassets */; };
 		A8C927AE1B5D62DF00A0C827 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8C927AC1B5D62DF00A0C827 /* LaunchScreen.xib */; };
 		A8C927BA1B5D62E000A0C827 /* SuperCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C927B91B5D62E000A0C827 /* SuperCardTests.m */; };
+		A8C927C51B5D63F900A0C827 /* PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C927C41B5D63F900A0C827 /* PlayingCardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		A8C927B31B5D62E000A0C827 /* SuperCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8C927B81B5D62E000A0C827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8C927B91B5D62E000A0C827 /* SuperCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCardTests.m; sourceTree = "<group>"; };
+		A8C927C31B5D63F900A0C827 /* PlayingCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardView.h; sourceTree = "<group>"; };
+		A8C927C41B5D63F900A0C827 /* PlayingCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +84,11 @@
 		A8C9279C1B5D62DF00A0C827 /* SuperCard */ = {
 			isa = PBXGroup;
 			children = (
-				A8C927A11B5D62DF00A0C827 /* AppDelegate.h */,
-				A8C927A21B5D62DF00A0C827 /* AppDelegate.m */,
+				A8C927A71B5D62DF00A0C827 /* Main.storyboard */,
 				A8C927A41B5D62DF00A0C827 /* ViewController.h */,
 				A8C927A51B5D62DF00A0C827 /* ViewController.m */,
-				A8C927A71B5D62DF00A0C827 /* Main.storyboard */,
+				A8C927C31B5D63F900A0C827 /* PlayingCardView.h */,
+				A8C927C41B5D63F900A0C827 /* PlayingCardView.m */,
 				A8C927AA1B5D62DF00A0C827 /* Images.xcassets */,
 				A8C927AC1B5D62DF00A0C827 /* LaunchScreen.xib */,
 				A8C9279D1B5D62DF00A0C827 /* Supporting Files */,
@@ -96,6 +99,8 @@
 		A8C9279D1B5D62DF00A0C827 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A8C927A11B5D62DF00A0C827 /* AppDelegate.h */,
+				A8C927A21B5D62DF00A0C827 /* AppDelegate.m */,
 				A8C9279E1B5D62DF00A0C827 /* Info.plist */,
 				A8C9279F1B5D62DF00A0C827 /* main.m */,
 			);
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8C927A61B5D62DF00A0C827 /* ViewController.m in Sources */,
+				A8C927C51B5D63F900A0C827 /* PlayingCardView.m in Sources */,
 				A8C927A31B5D62DF00A0C827 /* AppDelegate.m in Sources */,
 				A8C927A01B5D62DF00A0C827 /* main.m in Sources */,
 			);
