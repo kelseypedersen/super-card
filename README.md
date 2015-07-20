@@ -16,5 +16,7 @@ An application to learn more about Views.
 ```
 
 ## Screenshots
-![Starting image](/images/start.png?raw=true "Optional Title")
+
+![starting image](/images/start.png?raw=true "starting image")
 ![5 of hearts](/images/5-hearts.png?raw=true "5 of hearts")
+![queen of clubs](/images/queen.png?raw=true "queen of clubs")
