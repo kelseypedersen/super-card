@@ -19,7 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.playingCardView.suit = @"❤️";
+    self.playingCardView.suit = @"♥";
     self.playingCardView.rank = 13;
 }
 
