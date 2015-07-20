@@ -3,7 +3,7 @@
 An application to learn more about Views. 
 
 
-## Key Learnings:
+## Key Learnings
 ```
 - Use of CGFloat, CGPoint, CGSize, and CGRect
   - scale factors
@@ -14,3 +14,6 @@ An application to learn more about Views.
 - Subviews & Superviews
   - layering views
 ```
+
+## Screenshots
+![Starting image](/images/start.png?raw=true "Optional Title")
